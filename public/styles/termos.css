@@ -1,0 +1,19 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+@keyframes loading {
+    to {transform: rotate(360deg);}
+}
+    
+body
+    {
+        background: #717780; 
+    }
+
+
+header{
+    background-color: rgb(255, 255, 255);
+}

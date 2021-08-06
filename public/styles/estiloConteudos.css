@@ -1,0 +1,519 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #838b97; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.politica{
+    width: 70%;
+    margin-left: 20%;
+}
+
+.politica1{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 13rem;
+}
+
+.imagemVoltarTopo
+    {
+        width: 50px;
+        position: fixed;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        bottom: 30px;
+        right: 40px;
+        height: 50px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .imagemVoltarTopo:hover
+    {
+        transition: 0.5s ease-in-out;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.final{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+@media(min-width:800px){
+h2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.espaco{
+    padding-top:1rem;
+}
+
+img{
+    object-fit: cover;
+}
+
+
+.h2Navegacao{
+    font-size: 19px;
+}
+
+#botaoVoltar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+   
+    position: fixed;
+}
+
+/****Fim das Estilizações Globais****/
+
+header{
+    display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(254, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+}
+
+.ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -8rem;
+        z-index: 1;
+}
+
+h1
+    {
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        z-index: 1;
+}
+
+.imagemLogo{
+    width: 80px;
+    height: 90px;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.voltarAoInicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    
+}
+
+.voltar{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.voltar:hover{
+    font-size: 18px;
+    background-color: #FF6B6B;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagensConteudos{
+    max-width: 700px;
+    min-width: 280px;
+    height: 250px;
+    background: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.caixaVideo{
+    margin-top: 3rem;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+#amazon{
+    margin-left: 30%;
+    margin-top: 6rem;
+    width: 60%;
+    max-width: 30rem;
+    border-radius: 10px;
+}
+
+#twitte{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 25rem;
+    text-align: center;
+}
+
+#twitte:hover{
+    text-decoration: underline;
+}
+
+h3{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(27, 27, 27);
+    text-indent: 80px;
+}
+
+p{
+    
+    margin-top: 2.5rem;
+}
+
+
+.procurarMaisConteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3{
+    color: rgb(8, 8, 8);
+    padding-right: 1rem;
+}
+
+.mais{
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.mais:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0.5s;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #FF6B6B;
+    color: white;
+    margin-left: 1rem;
+}
+
+    /*Fim do "Ver Mais"*/
+
+.rodaPe{
+    margin-top: 3rem;
+    display: flex;
+    padding-top: 0.4rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right, #FF6B6B, #f89e9e);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.corDeFundo{
+    background:linear-gradient(to right, #FF6B6B, #f89e9e);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 8rem;
+}
+
+#restricoes{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#finalBranco{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.avaliar{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.avaliar:hover{
+    padding: 9px;
+    transition: 0.5s;
+    background: rgb(192, 183, 183);
+    text-decoration: underline;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .caixaVideo{
+        margin-left: 20%;
+        width: 50%;
+    }
+    h2{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .espaco{
+        padding-top:1rem;
+    }
+    
+    img{
+        object-fit: cover;
+    }
+    
+    
+    .h2Navegacao{
+        font-size: 19px;
+    }
+    
+    #botaoVoltar{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3rem;
+       
+        position: fixed;
+    }
+    
+    /****Fim das Estilizações Globais****/
+    
+    header{
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(254, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+
+    .ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -8rem;
+        z-index: 1;
+}
+
+h1
+    {
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        z-index: 1;
+}
+    
+    .imagemLogo{
+        width: 100px;
+        height: 100px;
+        padding-left: 5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .voltarAoInicio{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        
+    }
+    
+    .voltar{
+        text-decoration: none;
+        color: black;
+        transition: 0.5s ease-in-out;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .voltar:hover{
+        font-size: 18px;
+        background-color: #FF6B6B;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 8px;
+        text-decoration: underline;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .imagensConteudos{
+        width: 70%;
+        max-width: 700px;
+        min-width: 280px;
+        height: 250px;
+        background: white;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    }
+    
+    .imagem{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .titulo1{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .conteudo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    
+    
+    h3{
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(0, 0, 0);
+        text-indent: 10px;
+    }
+    
+    p{
+        
+        margin-top: 2.5rem;
+    }
+    
+    
+    .procurarMaisConteudos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .h3{
+        color: rgb(8, 8, 8);
+        padding-right: 1rem;
+    }
+    
+    .mais{
+        color: rgb(0, 0, 0);
+        padding-left: 1rem;
+        font-size: 19px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    
+    .mais:hover{
+        text-decoration: underline;
+        font-size: 20px;
+        transition: 0.5s;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #FF6B6B;
+        color: white;
+        margin-left: 1rem;
+    }
+    
+        /*Fim do "Ver Mais"*/
+    
+    .rodaPe{
+        margin-top: 3rem;
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background:linear-gradient(to right, #FF6B6B, #f89e9e);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 2rem;
+    }
+    
+    .corDeFundo{
+        background:linear-gradient(to right, #FF6B6B, #f89e9e);
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 8rem;
+    }
+    
+    #restricoes{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #finalBranco{
+        color: white;
+        padding-bottom: 1rem;
+    }
+    
+    .avaliar{
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .avaliar:hover{
+        padding: 9px;
+        transition: 0.5s;
+        background: rgb(192, 183, 183);
+        text-decoration: underline;
+    }
+    }

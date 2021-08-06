@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="voltar">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/ccb5c86f32.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/feedback.css">
+        <title>Estação Game</title>
+    </head>
+
+    <?php?>
+
+    <body>
+        <div id="progressbar"></div>
+        <div id="scrollPath"></div>
+        <!--
+       <a href="">
+        <div id="botaoVoltar">
+            <div>
+                &#9650;
+            </div>
+        </div>
+       </a>
+        -->
+
+
+        <header>
+            <img src="../img/logo-2418172_640.gif" alt="" class="imagemLogo">
+            <h1>
+                Ei Origami
+            </h1>
+        </header>
+        <!--Fim do Header-->
+
+        <div class="voltarAoInicio">
+            <a href="index.html" class="voltar">Voltar ao Inicio</a> 
+         </div>
+        
+        <div class="box">
+            <h2></h2>
+            <form action="feedback.php">
+                <div class="inputBox">
+                    <input type="text" name="nome" required="">
+                    <label for="">Nome</label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" required="">
+                    <label for="">Email</label>
+                </div>
+                <div class="inputBox" id="outro">
+                    
+                    <div class="erro">
+                    <textarea name="resumo1"  id="texto" cols="55" rows="15" placeholder="Deixe seu Feedback aqui!"></textarea>
+                    </div>
+                </div>
+                <div class="enviar">
+                <input type="submit" name="enviar" value="Enviar" id="enviar">
+                </div>
+            </form>
+        </div>
+
+        <script src="assets/script/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,288 @@
+*{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+body{
+    background: #838b97; 
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.imagemVoltarTopo{
+    width: 50px;
+    position: fixed;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    bottom: 30px;
+    right: 40px;
+    height: 50px;
+}
+
+img{
+    object-fit: cover;
+}
+
+img{
+    width: 90%;
+    height: 70%;
+    padding-left: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+header{
+    display: flex;
+    padding-top: 0.4rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+h1{ color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+   } 
+
+.ei{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: -8rem;
+}
+
+.imagemLogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.voltarAoInicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.voltar{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.voltar:hover{
+    font-size: 16px;
+    background-color: #FF6B6B;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
+    text-decoration: underline;
+    position: relative;
+}
+
+.maisConteudos{
+   margin-top: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.informacoesFoto{
+    display: flex;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#fotoVerMais{
+    width: 20rem;
+    height: 1rem;
+    opacity: 0.2;
+}
+
+.procurarMaisConteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3{
+    color: rgb(8, 8, 8);
+    padding-right: 1rem;
+}
+
+.mais{
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.mais:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0.5s;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #FF6B6B;
+    color: white;
+    margin-left: 1rem;
+}
+
+    /*Fim do "Ver Mais"*/
+
+.rodaPe{
+    margin-top: 3rem;
+    display: flex;
+    padding-top: 0.4rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.corDeFundo{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 8rem;
+}
+
+#restricoes{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#finalBranco{
+    color: rgb(219, 68, 80);
+    padding-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avaliar{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.avaliar:hover{
+    padding: 9px;
+    transition: 0.5s;
+    background: rgb(192, 183, 183);
+    text-decoration: underline;
+}
+
+.procurarMaisConteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    margin: 0px 10px;
+}
+
+.container .card .face{
+    width: 300px;
+    height: 210px;
+    transition: 0.6s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background-color: rgb(35, 36, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    transform: translateY(0px);
+   background: rgb(102, 98, 98);
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content h3{
+    color: rgb(255, 255, 255);
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0px);
+}
+.container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+    color: #fff;
+    background: #333;
+}
+
+section{
+    display: flex;
+    justify-content:center ;
+}
+
+.imagemInstagram{
+    width: 27px;
+    height: 27px;
+}

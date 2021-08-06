@@ -1,0 +1,995 @@
+*
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+
+html
+    {
+        scroll-behavior: smooth;
+    }
+
+/*#load{
+    width: 60px;
+    height: 60px;
+
+    border: rgba(0,0,0,0.10) solid;
+    border-left-color: red;
+    border-radius: 50%;
+    animation: loading 1.2s linear infinite;
+}*/
+
+@keyframes loading {
+    to {transform: rotate(360deg);}
+}
+    
+body
+    {
+        background: #717780; 
+    }
+
+.imagenFundo
+    {
+        display: none;
+    }
+
+
+.container
+    {
+        display: none;
+    }
+
+.tudo10
+    {
+        display: none;
+    }
+
+.tudo20
+    {
+        display: none;
+    }
+
+.imagemVoltarTopo
+    {
+        width: 50px;
+        position: fixed;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        bottom: 30px;
+        right: 40px;
+        height: 50px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .imagemVoltarTopo:hover
+    {
+        transition: 0.5s ease-in-out;
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
+
+.politicas{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(219, 68, 80);
+    font-family: 'Roboto', sans-serif;
+}
+
+.politicas:hover{
+    text-decoration: underline;
+}
+
+.tituloDosGames{
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 26rem;
+}
+
+.box-cookies.hide{
+    display: none !important;;
+}
+
+.msg-cookies{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.btn-cookies{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 80px;
+}
+
+.btn-cookies:hover{
+    text-decoration: underline;
+}
+
+.cookie1{
+    position: fixed;
+    background: rgb(37, 35, 35);
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    border-radius: 10px;
+}
+
+.politica4{
+    color: white;
+    padding-left: 11px;
+    text-decoration: none;
+}
+
+.politica4:hover{
+    text-decoration: underline;
+}
+
+h1
+    {
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.faixaEsports
+    {
+        background-color: rgb(231, 238, 241);
+        width: 100%;
+        height: 7rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(207, 15, 15);
+    }
+
+@media (min-width:600px)
+{
+
+.tudo10
+    {
+        display: block;
+    }
+
+.imagensConteudos
+    {
+        width: 100px;
+        height: 100px;
+        background: rgb(255, 254, 254);
+        
+    }
+
+h1{
+        margin-left: -6rem;
+    }
+
+h2
+    {
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(236, 231, 231);
+    }
+
+.acaba{
+    color: rgb(219, 68, 80)
+}
+
+
+.h2Navegacao
+    {
+        font-size: 19px;
+        color: rgb(219, 68, 80);
+    }
+
+#botaoVoltar
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3rem;
+        position: fixed;
+    }
+/****Fim das Estilizações Globais****/
+
+header
+    {
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+
+    .ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -1.4rem;
+    }
+
+.imagemLogo
+    {
+        width: 80px;
+        height: 90px;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+.navegacao
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(254, 255, 255);
+        padding-bottom: 0.4rem;
+    }
+
+.corNavegacao
+    {
+        color: rgb(230, 122, 131);
+        text-decoration: none;
+    }
+
+.corNavegacao:hover
+    {
+        text-decoration:underline ;
+    }
+
+li
+    {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        list-style:none;
+    }
+
+.imagemInstagram
+    {
+        width: 27px;
+        height: 27px;
+    }
+    /* Fim do Header*/
+
+.imagens
+    {
+        width: 280px;
+        height: 14rem;
+        background: #FF6B6B;
+        clip-path: polygon(13% 0, 100% 0%, 83% 100%, 0% 100%);
+        overflow: hidden;
+        transform: translate(-50%,-50%);
+        margin-left: 8rem;
+        margin-top: 5rem;
+        object-fit: cover;
+    }
+
+.imagens img
+    {
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+    }
+
+.imagens:hover img
+    {
+        transform: scale(1.2); 
+    }
+
+.flex
+    {
+        display: flex;
+        justify-content: flex-start;
+        margin: 8rem;  
+        flex-wrap: wrap;
+    }
+
+.ConteudoDasSections
+    {
+        width: 30rem;
+    }
+
+.verMais
+    {
+        padding: 0.5rem;
+        margin-left: 8rem;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(219, 68, 80);
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 2rem;
+    }
+
+.verMais:hover
+    {
+        background: #ec5a5a;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        transition: 0.3s;
+        text-decoration: underline;
+    }
+
+h3
+    {
+        
+
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    /*Fim das Noticias Normais*/
+
+.esports
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgb(78, 81, 97);
+        margin-left: 10rem;
+        margin-right: 10rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
+.esports article
+    {
+        z-index:6;
+    }
+
+.imagensEsports
+    {
+        width: 16.5rem;
+        height: 12rem;
+        background: #FF6B6B;
+        margin-top: 3.2rem;
+        margin-bottom: 3rem;
+        margin-left: 45%;
+    }
+
+.conteudoEsports
+    {
+        width: 25rem;
+        padding-bottom: 8rem;
+    }
+
+.segundoVerMais
+    {
+        background-color: rgb(219, 68, 80);
+        margin-bottom: 5rem;
+    }
+
+.imagenFundo
+    {
+        margin-top: 10rem;
+        margin-left: 5rem;
+        width: 400px;
+        height: 300px;
+        display: block;
+        position: absolute;
+        opacity: 0.3;
+        z-index: 3;  
+    }
+    /*FIM do Conteudo Esports*/
+
+.maisConteudos
+    {  
+        color: rgb(0, 0, 0);
+        padding-top: 4rem;
+    }
+
+.informacoesFoto
+    {
+        display: flex;
+        padding-left: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+#fotoVerMais
+    {
+        width: 20rem;
+        height: 1rem;
+        opacity: 0.2;
+    }
+
+.procurarMaisConteudos
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.h3
+    {
+        font-family: 'Roboto', sans-serif;
+        color: rgb(223, 215, 215);
+        padding-right: 1rem;
+    }
+
+.mais
+    {
+        color: rgb(0, 0, 0);
+        padding-left: 1rem;
+        font-size: 19px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+.mais:hover
+    {
+        text-decoration: underline;
+        font-size: 20px;
+        transition: 0.5s;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #FF6B6B;
+        color: white;
+        margin-left: 1rem;
+    }
+
+    /*Fim do "Ver Mais"*/
+
+.rodaPe
+    {
+        margin-top: 8rem;
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(254, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+
+.corDeFundo
+    {
+        background-color: rgb(254, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 8rem;
+        padding-bottom: 3rem;
+    }
+
+#restricoes
+    {
+        color: rgb(219, 68, 80);
+        display: flex;
+        justify-content: center;
+    }
+
+#finalBranco
+    {
+        color: rgb(219, 68, 80);
+        padding-bottom: 3rem;
+    }
+
+.avaliar
+    {
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+.avaliar:hover
+    {
+        padding: 9px;
+        transition: 0.5s;
+        background: rgb(192, 183, 183);
+        text-decoration: underline;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width:800px)
+{
+
+    .ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -1.4rem;
+    }
+
+h2
+    {
+        padding-bottom: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.h2Navegacao
+    {
+        font-size: 19px;
+    }
+
+.esports
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgb(78, 81, 97);
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
+   h1{ color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+   } 
+.esports article
+    {
+        z-index:6;
+    }
+
+    .ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px)
+{
+
+.tudo20
+    {
+        display: block;
+    }
+
+.container
+    {
+        display: block;
+    }
+
+*
+    {
+    padding: 0px;
+    margin: 0px;
+    }
+
+.voltarAoInicio
+    {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif; 
+    }
+
+.voltar
+    {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+    }
+
+.voltar:hover
+    {
+    font-size: 17px;
+    transition: 0.5s;
+    background:#FF6B6B;
+    color: white;
+    padding: 6px;
+    text-decoration: underline;
+    border-radius: 7px;
+    }
+
+header
+    {
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+
+    .ei{
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: -8.5rem;
+    }
+
+.imagemLogo
+    {
+        width: min-content;
+        height: 130px;
+        margin-left: 3.3rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+}
+/*Fim do Header*/
+
+.container
+    {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#checkbox-menu
+    {
+        position: absolute;
+        opacity: 0;
+    }
+
+.label
+    {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 20px;
+        width: 30px;
+        margin-top: 3rem;
+    }
+
+.label .span
+    {
+        position: absolute;
+        display: block;
+        height: 3px;
+        width: 100%;
+        border-radius: 30px;
+        background: #f3f1f1;
+        transition: 0.20s ease-in-out;
+    }
+
+.label .span:nth-child(1)
+    {
+        top:0
+    }
+
+.label .span:nth-child(2)
+    {
+        top:8px
+    }
+
+.label .span:nth-child(3)
+    {
+        top:16px
+    }
+
+#checkbox-menu:checked + .label .span:nth-child(1)
+    {
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+
+#checkbox-menu:checked + .label .span:nth-child(2)
+    {
+        opacity: 0;
+    }
+
+#checkbox-menu:checked + .label .span:nth-child(3)
+    {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+
+nav
+    {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+    }
+
+.coisas
+    {
+        width: 50%;
+        height: 8rem;
+        background-color: rgb(219, 68, 80);
+        margin-left: 25%;
+        margin-top: 2rem;
+        border-radius: 20px;
+        display: none;
+        transition: 0.5s ;
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+    }
+
+li
+    {
+        list-style: none;
+    }
+
+.info
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+.menu
+    {
+        padding-right: 1rem;
+        margin-top: 1px;
+        text-align: center;
+        align-items: center;
+    }
+
+.menu1
+    {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+.menu1:hover
+    {
+        text-decoration: underline;
+    }
+/*Fim da navegação*/
+
+.imagens
+    {
+        margin-top: 10rem;
+        width: 80%;
+        height: 200px;
+        object-fit: cover;
+        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    }
+
+.titulo
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+.imagem
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+p
+    {
+        padding-top: 1.5rem;
+    }
+
+h2
+    {
+        padding-bottom: 1rem;
+        color: rgb(236, 231, 231);
+        padding-left: 2rem;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+.h22{
+        padding-bottom: 1.5rem;
+        color: rgb(219, 68, 80);
+        padding-left: 2rem;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+}
+
+h3
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+
+.verMais
+    {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        margin-top: 0.5rem;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(219, 68, 80);
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+.verMais:hover
+    {
+        background: #ec5a5a;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        transition: 0.3s;
+        text-decoration: underline;
+    }
+
+.ver
+    {
+        display: flex;
+        justify-content: center;
+    }
+    /*Fim dos Conteudo Normais*/
+
+    /*Fim da Faixa Esports*/
+
+.esport
+    {
+        display: flex;    
+    }
+
+.imagem2
+    {
+        width: 80%;
+        max-width: 20rem;
+        height: 200px;
+        z-index: 0;
+        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 99%);
+    }     
+
+.afastarEsport
+    {
+        padding-top: 3rem;
+    }
+
+.imagemInstagram
+    {
+        width: 27px;
+        height: 27px;
+    }
+
+.maisConteudos
+    {
+        padding-top: 4rem;
+        color: rgb(0, 0, 0);
+    }
+
+.informacoesFoto
+    {
+        display: flex;
+        padding-left: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+#fotoVerMais
+    {
+        width: 20rem;
+        height: 1rem;
+        opacity: 0.2;
+    }
+
+.procurarMaisConteudos
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.h3
+    {
+        color: rgb(8, 8, 8);
+        padding-right: 1rem;
+    }
+
+.mais
+    {
+        color: rgb(0, 0, 0);
+        padding-left: 1rem;
+        font-size: 19px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+.mais:hover
+    {
+        text-decoration: underline;
+        font-size: 20px;
+        transition: 0.5s;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #FF6B6B;
+        color: white;
+        margin-left: 1rem;
+    }
+
+.rodaPe
+    {
+        margin-top: 3rem;
+        display: flex;
+        padding-top: 0.4rem;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255);
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+
+.corDeFundo
+    {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        padding: 1.2rem;
+    }
+
+#restricoes
+    {
+        color: rgb(219, 68, 80);
+        display: flex;
+        justify-content: center;
+    }
+
+#finalBranco
+    {
+        color: rgb(219, 68, 80);
+        padding-bottom: 1rem;
+    }
+    /*Fim do conteudo Esport*/
+
+.avaliar
+    {
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+.avaliar:hover
+    {
+        padding: 9px;
+        transition: 0.5s;
+        background: rgb(192, 183, 183);
+        text-decoration: underline;
+    }
+
+.titulo2
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+        
+.verMais2
+    {
+        display: flex;
+        justify-content: center;
+    }
+}

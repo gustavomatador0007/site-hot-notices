@@ -1,1 +1,0 @@
-# site-hot-notices

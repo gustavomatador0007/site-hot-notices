@@ -1,0 +1,20 @@
+{
+  "name": "site-hot-notices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavomatador0007/site-hot-notices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavomatador0007/site-hot-notices/issues"
+  },
+  "homepage": "https://github.com/gustavomatador0007/site-hot-notices#readme"
+}
