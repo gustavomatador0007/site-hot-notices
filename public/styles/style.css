@@ -19,14 +19,6 @@ html
     animation: loading 1.2s linear infinite;
 }*/
 
-.cookies{
-    width: 100px;
-    height: 100px;
-    z-index: 5;
-    margin-top: 8rem;
-    display: none;
-}
-
 @keyframes loading {
     to {transform: rotate(360deg);}
 }
