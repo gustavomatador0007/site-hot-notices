@@ -19,10 +19,22 @@ html
     animation: loading 1.2s linear infinite;
 }*/
 
+.cookies{
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+    margin-top: 8rem;
+    display: none;
+}
+
 @keyframes loading {
     to {transform: rotate(360deg);}
 }
     
+.aceitar{
+    text-decoration: underline;
+}
+
 body
     {
         background: #717780; 
@@ -90,6 +102,9 @@ body
 
 .box-cookies.hide{
     display: none !important;;
+    z-index: 1;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
 }
 
 .msg-cookies{
@@ -111,19 +126,10 @@ body
     text-decoration: underline;
 }
 
-.cookie1{
-    position: fixed;
-    background: rgb(37, 35, 35);
-    top: 40%;
-    left: 30%;
-    right: 30%;
-    border-radius: 10px;
-}
-
 .politica4{
     color: white;
     padding-left: 11px;
-    text-decoration: none;
+    
 }
 
 .politica4:hover{
@@ -149,8 +155,41 @@ h1
         color: rgb(207, 15, 15);
     }
 
+@media (min-width:800px){
+    
+.quadrado-estilo{
+    width: 427px;
+    height: 270px;
+    background-color: rgb(58, 56, 56);
+    margin-top: 6rem;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.quadrado-estilo2{
+    width: 427px;
+    height: 266px;
+    background-color: rgb(58, 56, 56);
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 1rem
+}
+
+
+}
+
 @media (min-width:600px)
 {
+
+.cookie1{
+        position: fixed;
+        background: rgb(37, 35, 35);
+        top: 30%;
+        left: 30%;
+        right: 30%;
+        border-radius: 15px;
+    }
+    
 
 .tudo10
     {
@@ -259,7 +298,7 @@ li
 
 .imagens
     {
-        
+        position: relative;
         width: 420px;
         height: 16rem;
         background: #FF6B6B;
@@ -565,6 +604,14 @@ h2
 @media(max-width:600px)
 {
 
+    .cookie1{
+        position: fixed;
+        background: rgb(37, 35, 35);
+        top: 30%;
+        padding-top: 5rem;
+        padding-bottom: -2rem;
+        border-radius: 15px;
+    }
 .tudo20
     {
         display: block;
