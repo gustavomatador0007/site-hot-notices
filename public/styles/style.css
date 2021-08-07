@@ -259,10 +259,10 @@ li
 
 .imagens
     {
-        width: 280px;
-        height: 14rem;
+        
+        width: 420px;
+        height: 16rem;
         background: #FF6B6B;
-        clip-path: polygon(13% 0, 100% 0%, 83% 100%, 0% 100%);
         overflow: hidden;
         transform: translate(-50%,-50%);
         margin-left: 8rem;
@@ -292,13 +292,14 @@ li
 
 .ConteudoDasSections
     {
-        width: 30rem;
+        width: 20rem;
+        margin-left: -5rem;
     }
 
 .verMais
     {
         padding: 0.5rem;
-        margin-left: 8rem;
+        margin-left: 4rem;
         border-radius: 8px;
         border: none;
         background-color: rgb(219, 68, 80);
@@ -367,6 +368,8 @@ h3
     {
         background-color: rgb(219, 68, 80);
         margin-bottom: 5rem;
+        margin-left: 8rem;
+        margin-top: -4rem;
     }
 
 .imagenFundo

@@ -192,7 +192,7 @@ h1{ color: rgb(0, 0, 0);
 }
 
 .container{
-    width: 1000px;
+    width: 2000px;
     position: relative;
     display: flex;
     justify-content: center;
