@@ -149,7 +149,7 @@ h1
 
 @media (min-width:800px){
     
-.quadrado-estilo{
+.quadradoEstilo{
     width: 427px;
     height: 270px;
     background-color: rgb(58, 56, 56);
@@ -158,7 +158,7 @@ h1
     margin-left: 1rem;
 }
 
-.quadrado-estilo2{
+.quadradoEstilo2{
     width: 427px;
     height: 266px;
     background-color: rgb(58, 56, 56);
