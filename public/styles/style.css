@@ -9,16 +9,6 @@ html
         scroll-behavior: smooth;
     }
 
-/*#load{
-    width: 60px;
-    height: 60px;
-
-    border: rgba(0,0,0,0.10) solid;
-    border-left-color: red;
-    border-radius: 50%;
-    animation: loading 1.2s linear infinite;
-}*/
-
 @keyframes loading {
     to {transform: rotate(360deg);}
 }
@@ -29,7 +19,7 @@ html
 
 body
     {
-        background: #717780; 
+        background: #fafafa; 
     }
 
 .imagenFundo
@@ -53,6 +43,15 @@ body
         display: none;
     }
 
+#primeiros_conteudos{
+    display: none;
+}
+
+#primeiros_conteudos2{
+    display: none;
+}
+
+    /*VOLTAR AO TOPO*/
 .imagemVoltarTopo
     {
         width: 50px;
@@ -66,12 +65,14 @@ body
         transition: 0.5s ease-in-out;
     }
 
-    .imagemVoltarTopo:hover
+.imagemVoltarTopo:hover
     {
         transition: 0.5s ease-in-out;
-        background-color: #ffffff;
+        background-color: #979797;
         border-radius: 40px;
     }
+    /*VOLTAR AO TOPO*/
+
 
 .politicas{
     text-decoration: none;
@@ -90,6 +91,7 @@ body
     display: flex;
     justify-content: center;
     width: 26rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .box-cookies.hide{
@@ -131,7 +133,9 @@ body
 h1
     {
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Noto Serif', serif;
+        font-size: 37px;
+        text-shadow: black 0.7px 0px 0px;
 }
 
 .faixaEsports
@@ -169,7 +173,6 @@ h1
     border-radius: 5px;
 }
 
-
 }
 
 @media (min-width:600px)
@@ -183,7 +186,6 @@ h1
         right: 30%;
         border-radius: 15px;
     }
-    
 
 .tudo10
     {
@@ -195,12 +197,6 @@ h1
         width: 100px;
         height: 100px;
         background: rgb(255, 254, 254);
-        
-        
-    }
-
-h1{
-        margin-left: -6rem;
     }
 
 h2
@@ -238,23 +234,21 @@ header
         font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(255, 255, 255);
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Noto Serif', serif;
         justify-content: center;
     }
 
     .ei{
-        color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
-        margin-left: -1.4rem;
+        color: rgb(0, 0, 0); 
     }
 
 .imagemLogo
     {
         width: 80px;
         height: 90px;
-        margin-left: 3rem;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        margin-right: 1rem;
     }
 
 .navegacao
@@ -277,6 +271,11 @@ header
         text-decoration:underline ;
     }
 
+#traco{
+    border-bottom: 1px solid black;
+    box-shadow: rgb(167, 166, 166) 2px 2px 2px;
+}
+
 li
     {
         padding-left: 1rem;
@@ -295,15 +294,21 @@ li
     {
         position: relative;
         width: 420px;
-        height: 16rem;
+        height: 14rem;
         background: #FF6B6B;
         overflow: hidden;
         transform: translate(-50%,-50%);
-        margin-left: 8rem;
+        margin-left: 1rem;
         margin-top: 5rem;
         object-fit: cover;
         border-radius: 7px;
+        display: flex;
+        margin-right: 1rem;
     }
+
+#afastar{
+    margin-left: 10rem;
+}
 
 .imagens img
     {
@@ -316,6 +321,7 @@ li
     {
         transform: scale(1.2); 
     }
+
 
 .flex
     {
@@ -337,40 +343,31 @@ li
         margin-left: 4rem;
         border-radius: 8px;
         border: none;
-        background-color: rgb(219, 68, 80);
+        background-color: rgb(255, 255, 255);
         color: white;
         cursor: pointer;
         transition: 0.3s;
         margin-top: 2rem;
     }
 
-.verMais:hover
-    {
-        background: #ec5a5a;
-        padding-top: 0.6rem;
-        padding-bottom: 0.6rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        transition: 0.3s;
-        text-decoration: underline;
-    }
-
 h3
     {
-        
-
         text-align: left;
         font-family: 'Roboto', sans-serif;
         color: rgb(255, 255, 255);
     }
     /*Fim das Noticias Normais*/
 
+.h3{
+    color: black;
+}
+
 .esports
     {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        background-color: rgb(78, 81, 97);
+        background-color: rgb(85, 72, 72);
         margin-left: 10rem;
         margin-right: 10rem;
         padding-bottom: 1rem;
@@ -398,15 +395,25 @@ h3
     {
         width: 25rem;
         padding-bottom: 8rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 25px;
     }
 
 .segundoVerMais
     {
-        background-color: rgb(219, 68, 80);
+        background-color: rgb(255, 255, 255);
         margin-bottom: 5rem;
         margin-left: 8rem;
         margin-top: -4rem;
+        color: black;
+        border-radius: 0;
+        padding: 10px;
     }
+
+.segundoVerMais:hover{
+    background-color: rgb(204, 203, 203);
+    color: rgb(0, 0, 0);
+}
 
 .imagenFundo
     {
@@ -447,13 +454,6 @@ h3
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-.h3
-    {
-        font-family: 'Roboto', sans-serif;
-        color: rgb(223, 215, 215);
-        padding-right: 1rem;
     }
 
 .mais
@@ -537,8 +537,147 @@ h3
     
 }
 
+@media (min-width:1040px){
+    #primeiros_conteudos{
+        display: block;
+    }
+    .imagens_topo{
+        margin-top: 8rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagem_da_direita{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    
+    .imagem_da_esquerda{
+        border-radius: 10px;
+    }
+    
+    .duas_imagens img{
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .duas_imagens:hover img{
+        transform: scale(1.2); 
+    }
+    
+    
+        /*Fim das Imagens dos Primeiros Conteudos*/
+    
+    .primeiros_conteudos{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .textos_conteudos{
+        width: 280px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .espaco_conteudos{
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+    
+    .paragrafo_conteudos{
+        width: 200px;
+    }
+    
+    .borda_conteudo1{
+        border: solid 1px black;
+    }
+    
+    #titulo1{
+        color: black;
+        width: 250px;
+        font-family: 'Lato', sans-serif;
+    }
+    /*Fim dos Primeiros Conteudos por Completo*/
+    
+    .botoes_conteudos{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    
+    .botao_conteudos{
+        padding-left: 13rem;
+        padding-right: 15rem;
+    }
+    
+    .botoes_primeiros_conteudos{
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+    
+    .botoes_primeiros_conteudos:hover{
+        background-color: rgb(48, 46, 46);
+        color: white;
+        cursor: pointer;
+    }
+    
+}
 
+@media (max-width:1040px){
+#primeiros_conteudos2{
+    display: block;
+}
+.imagem_topo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+#titulo2{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    width: 250px;
+}
+.conteudo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
 
+.imagem_conteudo2{
+    border-radius: 10px;
+    margin-top: 4rem;
+}
+
+.textos_conteudos2{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    align-items: center;
+    margin-left: 31%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.botao_conteudos2{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes_primeiros_conteudo2{
+    padding: 12px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+}
+
+}
 
 
 @media (max-width:800px)
@@ -575,7 +714,8 @@ h2
     }
 
    h1{ color: rgb(0, 0, 0);
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Noto Serif', serif;
+        font-size: 37px;
    } 
 .esports article
     {
@@ -667,15 +807,15 @@ header
 
     .ei{
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
-        margin-left: -8.5rem;
+        font-family: 'STIX Two Text', serif;
+
     }
 
 .imagemLogo
     {
         width: min-content;
         height: 130px;
-        margin-left: 3.3rem;
+        margin-right: 2rem;
         padding-bottom: 1rem;
         padding-top: 1rem;
 }
@@ -712,7 +852,7 @@ header
         height: 3px;
         width: 100%;
         border-radius: 30px;
-        background: #f3f1f1;
+        background: #000000;
         transition: 0.20s ease-in-out;
     }
 
@@ -748,6 +888,10 @@ header
         top: 8px;
     }
 
+    #traco{
+        border-bottom: 1px solid black;
+    }
+
 nav
     {
         font-family: 'Roboto', sans-serif;
@@ -758,7 +902,7 @@ nav
     {
         width: 50%;
         height: 8rem;
-        background-color: rgb(219, 68, 80);
+        background-color: rgb(68, 55, 56);
         margin-left: 25%;
         margin-top: 2rem;
         border-radius: 20px;
@@ -778,7 +922,7 @@ li
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: centebr;
     }
 
 .menu
@@ -807,7 +951,7 @@ li
         width: 80%;
         height: 200px;
         object-fit: cover;
-        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+        border-radius: 8px;
     }
 
 .titulo
@@ -830,9 +974,9 @@ p
 h2
     {
         padding-bottom: 1rem;
-        color: rgb(236, 231, 231);
+        color: rgb(0, 0, 0);
         padding-left: 2rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         display: flex;
         justify-content: center;
         padding-top: 2rem;
@@ -854,35 +998,27 @@ h3
         padding-left: 2rem;
         padding-right: 2rem;
         text-align: left;
-        font-family: 'Open Sans', sans-serif;
-        color: white;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(0, 0, 0);
     }
 
 .verMais
     {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 0.4rem;
-        padding-right: 0.4rem;
-        margin-top: 0.5rem;
-        border-radius: 8px;
+        padding: 12px;
+        margin-top: 3rem;
+        border-radius: 1px;
         border: none;
-        background-color: rgb(219, 68, 80);
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         cursor: pointer;
         transition: 0.3s;
         text-decoration: none;
+        border: 1px solid rgb(34, 34, 34);
     }
 
 .verMais:hover
     {
         background: #ec5a5a;
-        padding-top: 0.6rem;
-        padding-bottom: 0.6rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        transition: 0.3s;
-        text-decoration: underline;
     }
 
 .ver
@@ -905,7 +1041,7 @@ h3
         max-width: 20rem;
         height: 200px;
         z-index: 0;
-        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 99%);
+        border-radius: 8px;
     }     
 
 .afastarEsport
@@ -951,6 +1087,7 @@ h3
     {
         color: rgb(8, 8, 8);
         padding-right: 1rem;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
 .mais
@@ -986,6 +1123,7 @@ h3
         font-family: 'Roboto', sans-serif;
         padding-bottom: 2rem;
         justify-content: center;
+        border-top: 1px solid black;
     }
 
 .corDeFundo

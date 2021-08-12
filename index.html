@@ -14,7 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="site de noticias, informações e games">
-        <meta name="author" content="Gustavo Costa Franco">
+        <meta name="author" content="Gustavo Costa Franco de Almeida">
         <meta name="robots" content="index,follow">
         <script src="https://kit.fontawesome.com/ccb5c86f32.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,7 @@
 
         <div class="tudo10">
             <header>
-                <img src="./public/assets/img/logo-2418172_640.gif" alt="logo-do-hot-notices" class="imagemLogo">
+                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
                     <h1><span class="ei"> Hot</span> Notices</h1>
             </header>
             <!--Fim do Header-->
@@ -44,39 +44,48 @@
             </ul>
             <!--Fim da Navegação-->
 
-            <div class="quadradoEstilo"></div>
-            <section class="flex" id="novidades">
-                 <article class="imagens">
-                    <img src="public/assets/img/iphone.gif" alt="imagem-de-varios-Iphones">
-                </article>
-                <article class="ConteudoDasSections">
-                        <p>
-                            <h2>
-                                Qual Iphone comprar em 2021? Descubra o melhor modelo para você
-                            </h2>
-                        <h3>    
-                            Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.
-                        </h3>
-                    </p>
-                    <a href="src/pages/iphones.html"><input type="button" value="Ver Mais" class="verMais"></a> 
-                </article>
-            </section>
-            <!--Fim da Primeira Section-->
+            <div id="traco"></div>
+            <!--Fim do Traço da Navegão e Header-->
 
-            <div class="quadradoEstilo2"></div>
-            <section class="flex">
-                <article class="imagens"><img src="public/assets/img/perseverance.gif" alt="foto-da-sonda-perseverance"></article>
-                <article class="ConteudoDasSections">
-                    <p>
-                        <h2>Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2>
-                        <h3>
-                            Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a ...
-                        </h3>
-                    </p>
-                    <a href="src/pages/perseverance.html"><input type="button" value="Ver Mais" class="verMais"></a> 
+            <section id="primeiros_conteudos">
+                <article class="imagens_topo">
+                    <img src="public/assets/img/iphone.gif" alt="" class="imagem_da_esquerda duas_imagens">
+                    <img src="public/assets/img/perseverance.gif" alt="" class="imagem_da_direita duas_imagens">
                 </article>
+                <!--Fim das Imagens dos Primeiros Conteudos-->
+
+                <article class="primeiros_conteudos">
+                        <div class="espaco_conteudos">
+                            <h2 id="titulo1">Qual Iphone comprar em 2021? Descubra o melhor modelo para você</h2>
+                            <p class="textos_conteudos">Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.</p>
+                        </div>
+                        <div class="espaco_conteudos">
+                            <h2 id="titulo1"> Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2>
+                            <p class="textos_conteudos">Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a Nasa na última sexta-feira (06).</p>
+                        </div>
+                </article>
+                <!--Fim dos Primeiros Conteudos-->
+
+                <article class="botoes_conteudos">
+                        <a href="src/pages/iphones.html"><div class="botao_conteudos"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudos"></div></a> 
+                        <a href="src/pages/perseverance.html"><div class="botao_conteudos"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudos"></div></a> 
+                </article>
+                <!--Fim dos Primeiros Conteudos e dos Botões Ver Mais-->
             </section>
-            <!--Fim da Segunda Sections-->
+
+            <section id="primeiros_conteudos2">
+                <article class="imagem_topo2"><img src="public/assets/img/iphone.gif" alt="" class="imagem_conteudo2"></article>
+                <article class="conteudo2"><h2 id="titulo2">Qual Iphone comprar em 2021? Descubra o melhor modelo para você</h2></article>
+                <article class="textos_conteudos2"><p>Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.</p></article>
+                <article class="botao_conteudos2"><a href="src/pages/iphones.html"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudo2"></a></article>
+            </section>
+            
+            <section id="primeiros_conteudos2">
+                <article class="imagem_topo2"><img src="public/assets/img/perseverance.gif" alt="" class="imagem_conteudo2"></article>
+                <article class="conteudo2"><h2 id="titulo2">Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2></article>
+                <article class="textos_conteudos2"><p>Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a Nasa na última sexta-feira (06).</article>
+                <article class="botao_conteudos2"><a href="src/pages/perseverance.html"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudo2"></a></article>
+            </section>
 
             <div class="faixaEsports" id="esports">
                 <h2 class="acaba">Games</h2>
@@ -84,7 +93,6 @@
             <!--Fim da Faixa Esports-->
 
             <section class="esports" >
-                
                 <article>
                     <div class="imagensEsports imagens"><img src="public/assets/img/god-of-war.gif" alt="imagem-do-kratos-lutando"></div>
                     <div>
@@ -120,18 +128,16 @@
             <footer class="maisConteudos">
                 <div class="procurarMaisConteudos">
                     <div>
-                        <h3 class="h3"> Ver Mais </h3>
+                        <h3 class="h3"> Ver Mais: </h3>
                     </div>
                     <a href="src/pages/janela2.html" class="mais">2</a>
-                    <a href="" class="mais">3</a>
-                    <a href="" class="mais">4</a>
-                    <a href="" class="mais">5</a>
+                    
                 </div>
             </footer>
             <!--Fim do Ver Mais-->
 
             <footer class="rodaPe">
-                <img src="./public/assets/img/logo-2418172_640.gif" alt="logo-do-hot-notices" class="imagemLogo">
+                <img src="./public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
                 <h1><span class="ei"> Hot</span> Notices</h1>   
             </footer>
             <!--fim do Roda Pé-->
@@ -162,7 +168,7 @@
 
         <div class="tudo20">
             <header>
-                <img src="public/assets/img/logo-2418172_640.gif" alt="logo-do-hot-notices" class="imagemLogo">
+                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
                     <h1><span class="ei">Hot</span> Notices</h1>
             </header>
             <!--Fim do Header-->
@@ -180,13 +186,15 @@
             <nav>
                 <div class="coisas" id="coisa">
                     <ul class="info">
-                        <li class="menu"><h2><a href="inicio" class="menu1"> Inicio</a></h2></li>
+                        <li class="menu"><h2><a href="index.html" class="menu1"> Inicio</a></h2></li>
                         <li class="menu"><h2><a href="#novidades1"  class="menu1">Novidades</a></h2></li>
                         <li class="menu"><h2><a href="#jogos1"  class="menu1">Games</a></h2></li>
                     </ul>
                 </div>
             </nav>
             <!--Fim da Navegação-->
+
+            
 
             <div class="quadrado-estilo3"></div>
             <section>
@@ -270,7 +278,7 @@
             <!--Fim do Ver Mais-->
 
             <footer class="rodaPe">
-                <img src="public/assets/img/logo-2418172_640.gif" alt="logo-do-hot-notices" class="imagemLogo">
+                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
                 <h1>
                    <span class="ei">Hot</span> Notices
                 </h1>    
@@ -279,8 +287,9 @@
 
             <div>
                 <div class="corDeFundo">
-                  <!--  <a href="src/pages/privacidade.html">Politicas De Privacidade</a>-->
-                  <a href="https://www.instagram.com/gu_costa_0/"><img src="public/assets/img/instagram-certo.gif" alt="imagem-instagram" class="imagemInstagram"></a>  
+                  <!--  <a href="src/pages/privacidade.html">Politicas De Privacidade</a>-->  
+                  <a href="src/pages/privacidade.html" class="politicas">Politicas De Privacidade</a> 
+                  <a href="https://www.instagram.com/gu_costa_0/"><img src="public/assets/img/instagram-certo.gif" alt="imagem-instagram" class="imagemInstagram"></a>
                 </div>
                 <div class="corDeFundo" id="restricoes">
                     <h3 id="finalBranco">

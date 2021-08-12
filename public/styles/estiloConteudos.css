@@ -4,7 +4,7 @@
 }
 
 body{
-    background: #838b97; 
+    background: #f6f6f7; 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,7 +35,7 @@ body{
     .imagemVoltarTopo:hover
     {
         transition: 0.5s ease-in-out;
-        background-color: #ffffff;
+        background-color: #979797;
         border-radius: 40px;
     }
 
@@ -91,24 +91,25 @@ header{
 
 .ei{
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
-        margin-left: -8rem;
+        font-family: 'Noto Serif', serif;
         z-index: 1;
 }
 
 h1
     {
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Noto Serif', serif;
         z-index: 1;
+        font-size: 37px;
+
 }
 
 .imagemLogo{
     width: 80px;
     height: 90px;
-    padding-left: 3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .voltarAoInicio{
@@ -143,7 +144,7 @@ h1
     background: white;
     margin-left: 1rem;
     margin-top: 1rem;
-    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    border-radius: 8px;
 }
 
 .caixaVideo{
@@ -194,7 +195,7 @@ h1
 
 h3{
     text-align: left;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(27, 27, 27);
     text-indent: 80px;
 }
@@ -356,14 +357,14 @@ p{
 h1
     {
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Noto Serif', serif;
         z-index: 1;
 }
     
     .imagemLogo{
         width: 100px;
         height: 100px;
-        padding-left: 5rem;
+        
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -401,7 +402,7 @@ h1
         background: white;
         margin-left: 1rem;
         margin-top: 1rem;
-        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+        border-radius: 8px;
     }
     
     .imagem{
@@ -428,9 +429,10 @@ h1
     
     h3{
         text-align: left;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         color: rgb(0, 0, 0);
         text-indent: 10px;
+
     }
     
     p{
