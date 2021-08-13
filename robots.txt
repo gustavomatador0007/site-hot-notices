@@ -3,6 +3,3 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
-
-
-Sitemap: https://hotnotices.com/sitemap.xml
