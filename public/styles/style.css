@@ -233,7 +233,7 @@ header
         padding-top: 0.4rem;
         align-items: center;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(254, 255, 255);
         color: white;
         font-family: 'Noto Serif', serif;
         justify-content: center;
@@ -245,8 +245,8 @@ header
 
 .imagemLogo
     {
-        width: 80px;
-        height: 90px;
+        width: 70px;
+        height: 80px;
         margin-bottom: 1rem;
         margin-top: 1rem;
         margin-right: 1rem;
@@ -471,11 +471,13 @@ h3
         text-decoration: underline;
         font-size: 20px;
         transition: 0.5s;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding: 5px;
         background-color: #FF6B6B;
         color: white;
         margin-left: 1rem;
+        border-radius: 4px;
+        position: static;
+
     }
 
     /*Fim do "Ver Mais"*/
@@ -626,6 +628,28 @@ h3
         color: white;
         cursor: pointer;
     }
+
+    /**/
+
+
+    .primeiro-ver-mais{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .primeiro-botao-ver-mais{
+        padding: 12px;
+        border: 1px black solid;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .primeiro-botao-ver-mais:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
     
 }
 
@@ -690,6 +714,25 @@ h3
         margin-left: -1.4rem;
     }
 
+    .primeiro-ver-mais{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .primeiro-botao-ver-mais{
+        padding: 12px;
+        border: 1px black solid;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .primeiro-botao-ver-mais:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
 h2
     {
         padding-bottom: 1rem;
@@ -706,7 +749,7 @@ h2
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        background-color: rgb(78, 81, 97);
+        background-color: rgb(85, 72, 72);
         margin-left: 0rem;
         margin-right: 0rem;
         padding-bottom: 1rem;
@@ -1178,5 +1221,24 @@ h3
     {
         display: flex;
         justify-content: center;
+    }
+
+    .primeiro-ver-mais{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .primeiro-botao-ver-mais{
+        padding: 12px;
+        border: 1px black solid;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .primeiro-botao-ver-mais:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
     }
 }
