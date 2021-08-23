@@ -203,6 +203,7 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 6rem;
+    z-index: 0;
 }
     
 #games{
@@ -290,6 +291,56 @@ h1{
     background-color: rgb(32, 31, 31);
     color: white;
 }
+
+.botoes_ver_mais_desktop{
+    display: none;
+}
+
+@media  (min-width:600px) {
+
+    .botoes_ver_mais_desktop{
+        display: block;
+    }
+
+    .botoes_desktop{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    
+    .botoes_desktop2{
+        display: flex;
+        display: none;
+       margin-left: 20%;
+       margin-top: 2rem;
+    }
+    
+    .botoes_ver_mais_desktop{
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .botoes_ver_mais_desktop:hover{
+        background-color: rgb(32, 31, 31);
+        color: white;
+    }
+    
+    .botoes_ver_mais_desktop2{
+        margin-left: 65%;
+    }
+}
+
+.botao_ver_mais_desktop4{
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
 
 #section_escondida2.ativo2 #acao_botao2{
     display: none;
