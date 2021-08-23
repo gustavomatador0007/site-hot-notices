@@ -349,8 +349,7 @@ p{
 
     .ei{
         color: rgb(0, 0, 0);
-        font-family: 'Open Sans Condensed', sans-serif;
-        margin-left: -8rem;
+        font-family: 'Noto Serif', serif;
         z-index: 1;
 }
 
@@ -359,12 +358,12 @@ h1
         color: rgb(0, 0, 0);
         font-family: 'Noto Serif', serif;
         z-index: 1;
+        font-size: 37px;
 }
     
     .imagemLogo{
         width: 100px;
         height: 100px;
-        
         margin-top: 1rem;
         margin-bottom: 1rem;
     }

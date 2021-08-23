@@ -1,320 +1,127 @@
 <!DOCTYPE html>
 <html lang="en" id="top" class="inicio">
-    <head id="voltar">
-        <title>Hot Notices</title>
-        <meta charset="UTF-8">
-        <meta name="theme-color" content="#999999"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="site de noticias, informações e games">
-        <meta name="author" content="Gustavo Costa Franco de Almeida">
-        <meta name="robots" content="all">
-        <meta name="revisit-after" content="1 days">
-        <script src="https://kit.fontawesome.com/ccb5c86f32.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="public/styles/style.css">
-        <meta name="google-site-verification" content="rgLlI4uV99LbYyJ9KWCKHPZ3u-Q1Z0bLVRs-3aCLgFA" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-899T2D1NLL"></script>
-        <script>
+
+<head id="voltar">
+    <title>Hot Notices</title>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#999999" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="site de noticias, informações e games">
+    <meta name="author" content="Gustavo Costa Franco de Almeida">
+    <meta name="robots" content="all">
+    <meta name="revisit-after" content="1 days">
+    <script src="https://kit.fontawesome.com/ccb5c86f32.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <meta name="google-site-verification" content="rgLlI4uV99LbYyJ9KWCKHPZ3u-Q1Z0bLVRs-3aCLgFA" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-899T2D1NLL"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-899T2D1NLL');
-        </script>
-    </head>
-    <!-- Fim do Head / Meta-Tags  e (SEO) -->
+    </script>
+</head>
+<!-- Fim do Head / Meta-Tags  e (SEO) -->
 
-    <body>
+<body>
+    <header>
+        <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
+        <h1><span class="ei"> Hot</span> Notices</h1>
+    </header>
+    <!--Fim do Header-->
 
-        <div class="tudo10">
-            <header>
-                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
-                    <h1><span class="ei"> Hot</span> Notices</h1>
-            </header>
-            <!--Fim do Header-->
-
-            <ul class="navegacao">
-                <a href="index.html" class="corNavegacao" id="inicio"><li><h2 class="h2Navegacao">Inicio</h2> </li></a> 
-                <a href="#novidades" class="corNavegacao"><li><h2 class="h2Navegacao">Noticias</h2></li></a> 
-                <a href="#esports" class="corNavegacao"><li><h2 class="h2Navegacao">Games</h2></li></a>    
-            </ul>
-            <!--Fim da Navegação-->
-
-            <div id="traco"></div>
-            <!--Fim do Traço da Navegão e Header-->
-
-            <section id="primeiros_conteudos">
-                <article class="imagens_topo">
-                    <img src="public/assets/img/iphone.gif" alt="" class="imagem_da_esquerda duas_imagens">
-                    <img src="public/assets/img/perseverance.gif" alt="" class="imagem_da_direita duas_imagens">
-                </article>
-                <!--Fim das Imagens dos Primeiros Conteudos-->
-
-                <article class="primeiros_conteudos">
-                        <div class="espaco_conteudos">
-                            <h2 id="titulo1">Qual Iphone comprar em 2021? Descubra o melhor modelo para você</h2>
-                            <p class="textos_conteudos">Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.</p>
-                        </div>
-                        <div class="espaco_conteudos">
-                            <h2 id="titulo1"> Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2>
-                            <p class="textos_conteudos">Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a Nasa na última sexta-feira (06).</p>
-                        </div>
-                </article>
-                <!--Fim dos Primeiros Conteudos-->
-
-                <article class="botoes_conteudos">
-                        <a href="src/pages/iphones.html"><div class="botao_conteudos"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudos"></div></a> 
-                        <a href="src/pages/perseverance.html"><div class="botao_conteudos"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudos"></div></a> 
-                </article>
-                <!--Fim dos Primeiros Conteudos e dos Botões Ver Mais-->
-            </section>
-
-            <section id="primeiros_conteudos2">
-                <article class="imagem_topo2"><img src="public/assets/img/iphone.gif" alt="" class="imagem_conteudo2"></article>
-                <article class="conteudo2"><h2 id="titulo2">Qual Iphone comprar em 2021? Descubra o melhor modelo para você</h2></article>
-                <article class="textos_conteudos2"><p>Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.</p></article>
-                <article class="botao_conteudos2"><a href="src/pages/iphones.html"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudo2"></a></article>
-            </section>
-            
-            <section id="primeiros_conteudos2">
-                <article class="imagem_topo2"><img src="public/assets/img/perseverance.gif" alt="" class="imagem_conteudo2"></article>
-                <article class="conteudo2"><h2 id="titulo2">Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2></article>
-                <article class="textos_conteudos2"><p>Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a Nasa na última sexta-feira (06).</article>
-                <article class="botao_conteudos2"><a href="src/pages/perseverance.html"><input type="button" value="Ver Mais" class="botoes_primeiros_conteudo2"></a></article>
-            </section>
-
-            <br>
-            
-            <section>
-                <a href="src/pages/janela2.html" class="primeiro-ver-mais"><input type="button" value="Ver Mais Notícias" class="primeiro-botao-ver-mais"></a>
-            </section>
-
-            <div class="faixaEsports" id="esports">
-                <h2 class="acaba">Games</h2>
-            </div>
-            <!--Fim da Faixa Esports-->
-
-            <section class="esports" >
-                <article>
-                    <div class="imagensEsports imagens"><img src="public/assets/img/god-of-war.gif" alt="imagem-do-kratos-lutando"></div>
-                    <div>
-                        <div class="tituloDosGames"><h2>Trailer do jogo God of War: Ragnarok pode aparecer em agosto</h2></div>
-                        <p>
-                            <h3 class="conteudoEsports">
-                                De acordo com o leaker QuimSix, o novo God of War terá seu primeiro trailer em agosto. <br> Veja mais:
-                            </h3>
-                        </p>
-                    </div>
-                    <a href="src/pages/godofwar.html"><input type="button" value="Ver Mais" class="verMais segundoVerMais"></a> 
-                </article>
-                <!--Fim do Primeiro Conteudo Esports-->
-
-                <article>
-                    <div class="imagensEsports imagens"><img src="public/assets/img/epic-games.gif" alt="foto-da-logo-Epic-Games-Store"></div>
-                    <div>
-                        <div class="tituloDosGames"><h2> Epic Games Store revela games gratuitos da semana, confira:</h2></div>
-                        <p>
-                            <h3 class="conteudoEsports">
-                                Para os jogadores de PC, a Epic Games Store liberou dois jogos: <br>
-                                •	‘A Plague Tale: Innocence’ <br>
-                                •	Minit <br> Veja mais sobre os games:
-                                
-                            </h3>
-                        </p>
-                    </div>
-                    <a href="src/pages/materia-provisoria.html"><input type="button" value="Ver Mais" class="verMais segundoVerMais"></a>
-                </article>
-            </section>
-            <!--Fim do Conteudo do Esports-->
-
-            <footer class="maisConteudos">
-                <div class="procurarMaisConteudos">
-                    <div>
-                        <h3 class="h3"> Ver Mais: </h3>
-                    </div>
-                    <a href="src/pages/janela2.html" class="mais">2</a>
-                    
-                </div>
-            </footer>
-            <!--Fim do Ver Mais-->
-
-            <footer class="rodaPe">
-                <img src="./public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
-                <h1><span class="ei"> Hot</span> Notices</h1>   
-            </footer>
-            <!--fim do Roda Pé-->
-
-            <div >
-                <div class="corDeFundo">
-                    <a href="src/pages/privacidade.html" class="politicas">Politicas De Privacidade</a> 
-                    <a href="https://www.instagram.com/gu_costa_0/"><img src="./public/assets/img/instagram-certo.gif" alt="imagem-instagram" class="imagemInstagram"></a> 
-                </div>
-                <div class="corDeFundo" id="restricoes"> 
-                    <h3 id="finalBranco">
-                    Copyright © 2021. Created by Gustavo Costa.<br>
-                    Todos os direitos reservados
-                    </h3>
-                </div>
-            </div>
-            <!--Fim das Ferramentas/ Direitos Autorais!--> 
-        </div>
-        <!-- Fim do HTML Para Desktop -->
-
-        <div class="tudo20">
-            <header>
-                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
-                    <h1><span class="ei">Hot</span> Notices</h1>
-            </header>
-            <!--Fim do Header-->
-    
-            <div class="container">
-                <input type="checkbox" id="checkbox-menu" onclick="menu()">
-                <label for="checkbox-menu" class="label">
-                    <span class="span"></span>
-                    <span class="span"></span>
-                    <span class="span"></span>
-                </label>
-            </div>
-            <!--Fim do Menu Para Mobile-->
-
-            <nav>
-                <div class="coisas" id="coisa">
-                    <ul class="info">
-                        <li class="menu"><h2><a href="index.html" class="menu1"> Inicio</a></h2></li>
-                        <li class="menu"><h2><a href="#novidades1"  class="menu1">Novidades</a></h2></li>
-                        <li class="menu"><h2><a href="#jogos1"  class="menu1">Games</a></h2></li>
-                    </ul>
-                </div>
-            </nav>
-            <!--Fim da Navegação-->
-
-            <div class="quadrado-estilo3"></div>
-            <section>
-                <div class="imagem" id="novidades1"><img src="public/assets/img/iphone.gif" alt="imagem-de-varios-Iphones" class="imagens"></div>
-                <p>
-                    <div class="titulo"><h2>Qual Iphone comprar em 2021? Descubra o melhor modelo para você </h2></div>
-
-                    <h3>
-                        Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.
-                    </h3>
-                </p>
-                <div class="ver">
-                    <a href="src/pages/iphones.html" class="verMais">Ver Mais</a>
-                </div>
-            </section>
-            <!--Fim do Primeiro Conteudo-->
-
-            <section>
-                <div class="imagem"><img src="public/assets/img/perseverance.gif" alt="foto-da-sonda-perseverance" class="imagens"></div>
-                <p>
-                    <div class="titulo"><h2>Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.</h2></div>
-
-                    <h3>
-                        Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a ...
-                    </h3>
-                </p>
-                <div class="ver"><a href="src/pages/perseverance.html" class="verMais">Ver Mais</a></div>
-            </section>
-            <!--Fim dos Conteudos Normais-->
-
-            <section>
-                <a href="src/pages/janela2.html" class="primeiro-ver-mais"><input type="button" value="Ver Mais Notícias" class="primeiro-botao-ver-mais"></a>
-            </section>
-
-            <div class="faixaEsports " id="diminuir">
-                <h2 class="h22">Games</h2>
-            </div>
-            <!--Fim da Faixa Esport-->
-
-            <section>
-                <div class="imagem" id="jogos1">
-                    <img src="public/assets/img/god-of-war.gif" alt="imagem-do-kratos-lutando" class="imagem2">
-                </div>
-                <h2 class="titulo2">
-                    Trailer do jogo God f War: Ragnarok pode aparecer em agosto
-                </h2>
-                <div>
-                    <p>
-                        <h3>
-                            De acordo com o leaker QuimSix, o novo God of War terá seu primeiro trailer em agosto. <br> Veja mais:
-                        </h3>
-                    </p>
-                </div>
-                <div class="verMais2"><a href="src/pages/godofwar.html" class="verMais">Ver Mais</a></div>
-            </section>
-            <!--Fim do primeiro Conteudo Esports-->
-
-            <section class="afastarEsport">
-                <div class="imagem"><img src="public/assets/img/epic-games.gif" alt="foto-da-logo-Epic-Games-Store" class="imagem2"></div>
-                <div>
-                    <h2 class="titulo2">Epic Games Store revela games gratuitos da semana, confira:</h2>
-                    <p>
-                        <h3>
-
-                            
-                                •	‘A Plague Tale: Innocence’ <br>
-                                •	Minit <br> Veja mais sobre os games:
-                        </h3>   
-                    </p>
-                </div>
-                <div class="verMais2"><a href="src/pages/materia-provisoria.html" class="verMais">Ver Mais</a></div>
-            </section>
-            <!--Fim do Segundo Conteudo do Esports e Fim do Esports-->
-
-            <footer class="maisConteudos">
-                <div class="procurarMaisConteudos">
-                    <div><h3 class="h3">Ver Mais</h3></div>
-
-                    <a href="src/pages/janela2.html" class="mais">2</a>
-                    <a href="" class="mais">3</a>
-                    <a href="" class="mais">4</a>
-                    <a href="" class="mais">5</a>
-                </div>
-            </footer>
-            <!--Fim do Ver Mais-->
-
-            <footer class="rodaPe">
-                <img src="public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
-                <h1>
-                   <span class="ei">Hot</span> Notices
-                </h1>    
-            </footer>
-            <!--fim do Roda Pé-->
-
-            <div>
-                <div class="corDeFundo">
-                  <!--  <a href="src/pages/privacidade.html">Politicas De Privacidade</a>-->  
-                  <a href="src/pages/privacidade.html" class="politicas">Politicas De Privacidade</a> 
-                  <a href="https://www.instagram.com/gu_costa_0/"><img src="public/assets/img/instagram-certo.gif" alt="imagem-instagram" class="imagemInstagram"></a>
-                </div>
-                <div class="corDeFundo" id="restricoes">
-                    <h3 id="finalBranco">
-                        Copyright © 2021. Created by Gustavo Costa.<br>
-                        Todos os direitos reservados
-                    </h3>
-                </div>
-            </div>
-        </div>
-        <!-- Fim do HTML Para Mobile -->
-
+    <nav>
         <div>
-            <a href="#top"><img src="./public/assets/img/seta-cima.png" alt="seta-para-voltar-ao-topo" class="imagemVoltarTopo"></a>
+            <ul class="navegacao4">
+               <h2><a href="index.html"><li class="nav">Inicio</li></a></h2> 
+               <h2><a href="#noticias"><li class="nav">Noticias</li></a></h2> 
+               <h2><a href="#games"><li class="nav">Games</li></a></h2> 
+            </ul>
         </div>
-        <!-- Fm da Seta Voltar ao Topo -->
+    </nav>
 
-        <div class="cookie1">
-            <div class="box-cookies hide">
-                <p class="msg-cookies">Este site usa cookies para garantir que você tenha a melhor experiência possivel. <br> <br>
-                    Veja mais em <a href="../site-hot-notices/src/pages/privacidade.html" class="politica4">Politicas de Privacidade</a>
-                    <div class="btn-cookies"><span class="aceitar">Aceitar</span>  </div>
-                </p>
-            </div>
+    <div id="traco noticias"></div>
+    <!--Fim do Traço da Navegão e Header-->
+
+    <section id="noticias"></section>
+    <!--FIM DOS PRIMEIROS CONTEUDOS-->
+
+    <section id="section_escondida1">
+        <div class="botao_ver_mais"><input type="button" value="Carregar Mais Conteudos" class="estilo_botao" id="acao_botao">
         </div>
-        <!-- Fim dos Cookies -->
+        <div class="conteudo_escondido1" id="conteudo_escondido1">
+            <section id="noticias_escondidas"></section>
+        </div>
+    </section>
 
-        <script src="./src/scripts/script.js"></script>
-    </body>
+<img src="" alt="">
+
+<a href=""></a>
+
+    <div class="faixaEsports" id="esports games">
+        <h2 class="acaba">Games</h2>
+    </div>
+    <!-- FIM DA FAIXA GAMES-->
+
+    <section id="games"></section>
+    <!--FIM DOS SEGUNDOS CONTEUDOS-->
+
+    <section id="section_escondida2">
+        <div class="botao_ver_mais2"><input type="button" value="Carregar Mais Notícias" class="estilo_botao2" id="acao_botao2"></div>
+        <div class="conteudo_escondido4" id="conteudo_escondido4">
+            <section id="noticias_escondidas2"></section>
+        </div>
+    </section>
+
+    <div class="traco-rodape"></div>
+    <!--FIM DO TRAÇO DO RODA PÉ-->
+
+    <footer class="rodaPe">
+        <img src="./public/assets/img/logo.png" alt="logo-do-hot-notices" class="imagemLogo">
+        <h1><span class="ei"> Hot</span> Notices</h1>
+    </footer>
+    <!--fim do Roda Pé-->
+
+    <div>
+        <div class="corDeFundo">
+            <a href="src/pages/privacidade.html" class="politicas">Politicas De Privacidade</a>
+            <a href="https://www.instagram.com/gu_costa_0/"><img src="./public/assets/img/instagram-certo.gif"
+                    alt="imagem-instagram" class="imagemInstagram"></a>
+        </div>
+        <div class="corDeFundo" id="restricoes">
+            <h3 id="finalBranco">
+                Copyright © 2021. Created by Gustavo Costa.<br>
+                Todos os direitos reservados
+            </h3>
+        </div>
+    </div>
+    <!--Fim das Ferramentas/ Direitos Autorais!-->
+
+    <div>
+        <a href="#top">
+            <img src="./public/assets/img/seta-cima.png" alt="seta-para-voltar-ao-topo" class="imagemVoltarTopo">
+        </a>
+    </div>
+    <!-- Fm da Seta Voltar ao Topo -->
+
+    <div class="cookie1">
+        <div class="box-cookies hide">
+            <p class="msg-cookies">Este site usa cookies para garantir que você tenha a melhor experiência possivel.
+                <br> <br>
+                Veja mais em <a href="../site-hot-notices/src/pages/privacidade.html" class="politica4">Politicas de
+                    Privacidade</a>
+            <div class="btn-cookies"><span class="aceitar">Aceitar</span> </div>
+            </p>
+        </div>
+    </div>
+    <!-- Fim dos Cookies -->
+
+    <script src="./src/scripts/script.js"></script>
+</body>
+
 </html>
