@@ -51,6 +51,7 @@ const card = template({
     title: 'Qual Iphone comprar em 2021?',
     description: 'Na matéria de hoje, trarei um modelo para você que está procurando um Iphone de entrada/intermediário.',
     image_url: 'public/assets/img/iphone.gif',
+    link: 'src/pages/iphones.html'
 })
 section.innerHTML = card
 
@@ -58,6 +59,7 @@ section.innerHTML += template({
     title: 'Sonda Perseverance perfura solo de Marte para a coleta de amostras, mas conteúdo sumiu.',
     description: 'Perseverance começou a coletar amostras de uma rocha, a primeira de muitas que deverão ser trazidas à terra, disse a Nasa na última sexta-feira (06).',
     image_url: 'public/assets/img/perseverance.gif',
+    link: 'src/pages/perseverance.html'
 })
 
 /** FIM DOS PRIMEIROS CONTEUDOS COPIADOS */
