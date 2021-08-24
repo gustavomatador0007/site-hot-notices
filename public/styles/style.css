@@ -296,6 +296,10 @@ h1{
     display: none;
 }
 
+.sumir_links{
+    display: none;
+}
+
 @media  (min-width:600px) {
 
     .botoes_ver_mais_desktop{
