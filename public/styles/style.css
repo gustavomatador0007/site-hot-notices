@@ -14,9 +14,78 @@ html
     to {transform: rotate(360deg);}
 }
 
+.flex10{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
     
+.botao_ver_mais_conteudos1{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+   
+}
+
+.btn_ver_mais1{
+    padding: 12px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn_ver_mais1:hover{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+img{
+    object-fit: cover;
+}
+
+.imagem_mais_conteudos{
+    border-radius: 10px;
+    width: 500px;
+}
+
+@media (max-width:520px){
+    .imagem_mais_conteudos{
+        border-radius: 10px;
+        width: 300px;
+    }
+    
+}
+
 .aceitar{
     text-decoration: underline;
+}
+
+.conteudo_mais_conteduos{
+    width: 300px;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.segundo_btn_ver_mais_escondido{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_ver_mais_2{
+    padding: 11px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    display: none;
+}
+
+.btn_ver_mais_2:hover{
+    background-color: rgb(32, 31, 31);
+    color: white;
 }
 
 body
@@ -300,49 +369,29 @@ h1{
     display: none;
 }
 
-@media  (min-width:600px) {
-
-    .botoes_ver_mais_desktop{
-        display: block;
-    }
-
-    .botoes_desktop{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 1rem;
-    }
-    
-    .botoes_desktop2{
-        display: flex;
-        display: none;
-       margin-left: 20%;
-       margin-top: 2rem;
-    }
-    
-    .botoes_ver_mais_desktop{
-        padding: 10px;
-        background-color: white;
-        color: black;
-        border: 1px solid black;
-        border-radius: 3px;
-        cursor: pointer;
-        transition: 0.3s ease-in-out;
-    }
-    
-    .botoes_ver_mais_desktop:hover{
-        background-color: rgb(32, 31, 31);
-        color: white;
-    }
-    
-    .botoes_ver_mais_desktop2{
-        margin-left: 65%;
-    }
+.botao_ver_mais_escondido1{
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
-.botao_ver_mais_desktop4{
-    margin-left: 1rem;
+.botao_ver_mais_escondido1:hover{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.flex_botao{
+    display: flex;
+    justify-content: center;
     margin-top: 5rem;
+    
+}
+
+#botao_ver_mais_escondido1{
+    padding: 12px;
 }
 
 
@@ -515,23 +564,23 @@ li
     }
 
 .ConteudoDasSections
-    {
-        width: 20rem;
-        margin-left: -5rem;
-    }
+{
+    width: 20rem;
+    margin-left: -5rem;
+}
 
 .verMais
-    {
-        padding: 0.5rem;
-        margin-left: 4rem;
-        border-radius: 8px;
-        border: none;
-        background-color: rgb(255, 255, 255);
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
-        margin-top: 2rem;
-    }
+{
+    padding: 0.5rem;
+    margin-left: 4rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 2rem;
+}
 
 h3
     {
@@ -546,18 +595,17 @@ h3
 }
 
 .esports
-    {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        
-        margin-left: 10rem;
-        margin-right: 10rem;
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
-        border-radius: 20px;
-        z-index: 0;
-    }
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    z-index: 0;
+}
 
 .esports article
     {
@@ -565,167 +613,165 @@ h3
     }
 
 .imagensEsports
-    {
-        width: 16.5rem;
-        height: 12rem;
-        background: #FF6B6B;
-        margin-top: 3.2rem;
-        margin-bottom: 3rem;
-        margin-left: 45%;
-    }
+{
+    width: 16.5rem;
+    height: 12rem;
+    background: #FF6B6B;
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+    margin-left: 45%;
+}
 
 .conteudoEsports
-    {
-        width: 25rem;
-        padding-bottom: 8rem;
-        font-family: 'Source Sans Pro', sans-serif;
-        line-height: 25px;
-    }
+{
+    width: 25rem;
+    padding-bottom: 8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25px;
+}
 
 .segundoVerMais
-    {
-        background-color: rgb(255, 255, 255);
-        margin-bottom: 5rem;
-        margin-left: 8rem;
-        margin-top: -4rem;
-        color: black;
-        border-radius: 0;
-        padding: 11px;
-        border-radius: 2px;
-        border: 1px solid black;
-    }
+{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+    margin-top: -4rem;
+    color: black;
+    border-radius: 0;
+    padding: 11px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
 
 .segundoVerMais:hover{
-    background-color: rgb(58, 56, 56);
-    color: rgb(255, 255, 255);
+background-color: rgb(58, 56, 56);
+color: rgb(255, 255, 255);
 }
 
 .imagenFundo
-    {
-        margin-top: 10rem;
-        margin-left: 5rem;
-        width: 400px;
-        height: 300px;
-        display: block;
-        position: absolute;
-        opacity: 0.3;
-        z-index: 3;  
-    }
-    /*FIM do Conteudo Esports*/
+{
+margin-top: 10rem;
+margin-left: 5rem;
+width: 400px;
+height: 300px;
+display: block;
+position: absolute;
+opacity: 0.3;
+z-index: 3;  
+}
+/*FIM do Conteudo Esports*/
 
 .maisConteudos
-    {  
-        color: rgb(0, 0, 0);
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
+{  
+color: rgb(0, 0, 0);
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
 
 .informacoesFoto
-    {
-        display: flex;
-        padding-left: 5rem;
-        align-items: center;
-        justify-content: center;
-    }
+{
+    display: flex;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
 
 #fotoVerMais
-    {
-        width: 20rem;
-        height: 1rem;
-        opacity: 0.2;
-    }
+{
+    width: 20rem;
+    height: 1rem;
+    opacity: 0.2;
+}
 
 .procurarMaisConteudos
-    {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .mais
-    {
-        color: rgb(0, 0, 0);
-        padding-left: 1rem;
-        font-size: 19px;
-        text-decoration: none;
-        transition: 0.5s;
-    }
+{
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    font-size: 19px;
+    text-decoration: none;
+    transition: 0.5s;
+}
 
 .mais:hover
-    {
-        text-decoration: underline;
-        font-size: 20px;
-        transition: 0.5s;
-        padding: 5px;
-        background-color: #FF6B6B;
-        color: white;
-        margin-left: 1rem;
-        border-radius: 4px;
-        position: static;
+{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 5px;
+    background-color: #FF6B6B;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 4px;
+    position: static;
 
-    }
+}
 
-    /*Fim do "Ver Mais"*/
+/*Fim do "Ver Mais"*/
 
 .rodaPe
-    {
-        display: flex;
-        padding-top: 2rem;
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(254, 255, 255);
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        padding-bottom: 2rem;
-        justify-content: center;
-    }
+{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(254, 255, 255);
+color: white;
+font-family: 'Roboto', sans-serif;
+padding-bottom: 2rem;
+justify-content: center;
+}
 
 .corDeFundo
-    {
-        background-color: rgb(254, 255, 255);
-        display: flex;
-        justify-content: space-between;
-        padding-left: 4rem;
-        padding-right: 8rem;
-        padding-bottom: 3rem;
-    }
+{
+background-color: rgb(254, 255, 255);
+display: flex;
+justify-content: space-between;
+padding-left: 4rem;
+padding-right: 8rem;
+padding-bottom: 3rem;
+}
 
 #restricoes
-    {
-        color: rgb(219, 68, 80);
-        display: flex;
-        justify-content: center;
-    }
+{
+color: rgb(219, 68, 80);
+display: flex;
+justify-content: center;
+}
 
 #finalBranco
-    {
-        color: rgb(219, 68, 80);
-        padding-bottom: 3rem;
-    }
+{
+color: rgb(219, 68, 80);
+padding-bottom: 3rem;
+}
 
 .avaliar
-    {
-        border: none;
-        padding: 7px;
-        border-radius: 5px;
-        background-color: rgb(255, 255, 255);
-        cursor: pointer;
-        transition: 0.5s;
-    }
+{
+border: none;
+padding: 7px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+cursor: pointer;
+transition: 0.5s;
+}
 
 .avaliar:hover
-    {
-        padding: 9px;
-        transition: 0.5s;
-        background: rgb(192, 183, 183);
-        text-decoration: underline;
-    }
+{
+padding: 9px;
+transition: 0.5s;
+background: rgb(192, 183, 183);
+text-decoration: underline;
+}
 
-
-    .traco-rodape{
-        width: 100%;
-        height: 1px;
-        border-top: 1px solid black;
-    }
-    
+.traco-rodape{
+width: 100%;
+height: 1px;
+border-top: 1px solid black;
+}
 }
